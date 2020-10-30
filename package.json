@@ -1,0 +1,27 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "A technical blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janimuhlestein/Tech-Blog.git"
+  },
+  "author": "Jani Muhlestein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janimuhlestein/Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/janimuhlestein/Tech-Blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "node": "^15.0.1",
+    "sequelize": "^6.3.5"
+  }
+}
