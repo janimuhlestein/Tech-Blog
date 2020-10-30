@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const {User} = require('../../models');
 
-//routes for getting, creating, deleting, and updating users
+//routes for getting, creating, deleting, and updating users, and allow user to login
 
 router.get('/', (req,res)=>{
     User.findAll({
