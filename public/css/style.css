@@ -57,8 +57,15 @@ body, html {
     margin-left: 50px;
 }
 
-form > div {
-    margin-bottom: 2%;
+form {
+    text-align: center;
+    display: table;
+    margin: 20px auto;
+}
+
+button {
+    text-align: center;
+
 }
 
 form label {

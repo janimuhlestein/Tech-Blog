@@ -54,10 +54,10 @@ router.post('/', (req,res)=>{
     //expects: {username: xxxx, first_name: xxxx, last_name: xxxx, email: xxxx@xxx.com, password: xxxxxx}
     User.create({
         username: req.body.username,
+        password: req.body.password,
         first_name: req.body.first_name,
         last_name: req.body.last_name,
-        email: req.body.email,
-        password: req.body.password
+        email: req.body.email
     })
     .then(dbUserData=>{
         res.json(dbUserData);
