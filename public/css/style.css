@@ -89,6 +89,14 @@ form {
     margin: 20px auto;
 }
 
+.new-post-title {
+    margin-left: 140px;
+}
+
+.new-post-form {
+    margin-left: 140px;
+}
+
 .add-comment-form {
     text-align: left;
     display: table;
