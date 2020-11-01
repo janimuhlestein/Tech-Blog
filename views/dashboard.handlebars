@@ -18,13 +18,11 @@
 </section>
 {{#if posts.length}}
 <section>
-<h2>Your Posts</h2>
+<h2 class = "your-posts">Your Posts</h2>
   <ul>
     {{#each posts as |post|}}
-    <li>
       {{> post-info post}}
       <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
-    </li>
     {{/each}}
   </ul>
 </section>

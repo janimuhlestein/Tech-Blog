@@ -90,11 +90,15 @@ form {
 }
 
 .new-post-title {
-    margin-left: 140px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .new-post-form {
-    margin-left: 140px;
+    text-align: center;
+    display: table;
+    margin: 20px auto;
+   
 }
 
 .add-comment-form {
@@ -145,11 +149,22 @@ input:focus {
     border: 3px solid #555;
 }
 
+.your-posts {
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+.edit-link {
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 90%;
+    font-style: italic;
+}
+
 footer {
     text-align: center;
     font-size: 100%;
     font-style: italic;
-    position: fixed;
     left: 46%;
     bottom: 0;
     padding-bottom: 40px;
