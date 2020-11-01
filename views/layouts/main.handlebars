@@ -15,9 +15,13 @@
         <a class = "head-title" href="/">Tech Blog: A Place for Tech Opinions </a>
       </h1>
       <nav>
+        {{#unless loggedIn}}
           <a href = "/login">login</a>
           <a href = "/signup">sign up</a>
+          {{/unless}}
+          {{#if loggedIn}}
           <a href = "/logout" id = "logout">logout</a>
+          {{/if}}
       </nav>
     </header>
     <main>
@@ -27,6 +31,10 @@
       Thanks for visiting!
     </footer>
   </div>
+{{#if loggedIn}}
 <script src = "/javascript/logout.js"></script>
+{{else}}
+<script src = "/javascript/login.js"></script>
+{{/if}}
 </body>
 </html>

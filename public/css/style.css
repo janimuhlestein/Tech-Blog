@@ -3,7 +3,7 @@
 }
 
 header {
-    background-color: papayawhip;
+    background-color: paleturquoise;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 20px;
@@ -13,6 +13,13 @@ header {
     align-items: center;
     margin-left: 50px;
     margin-right: 50px;
+    border-bottom: 3px solid darkgrey;
+}
+
+.head-title {
+    text-decoration: none;
+    font-size: 20px;
+    color: darkslategray
 }
 
 body, html {
@@ -26,7 +33,7 @@ body, html {
 .post-title {
     font-style: italic;
     font-size: 90%;
-    color: royalblue; 
+    color: darkslateblue; 
     margin-left: 50px;
     margin-top: 15px;
 }
@@ -57,15 +64,58 @@ body, html {
     margin-left: 50px;
 }
 
+.meta {
+    font-size: 80%;
+    font-style: italic;
+    margin-left: 140px;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-left: 140px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 400px;
+    height: 70px;
+}
+
 form {
     text-align: center;
     display: table;
     margin: 20px auto;
 }
 
-button {
-    text-align: center;
+.add-comment-form {
+    text-align: left;
+    display: table;
+    margin: 20px 0 20px 140px;
+}
 
+.comment-button {
+    text-align: center;
+    border-radius: 10px;
+    background-color: royalblue;
+    color: white;
+    width: 80px;
+    height: 35px;
+    font-size: 120%;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+
+.login-button {
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: royalblue;
+    color: white;
+    width: 80px;
+    height: 35px;
+    font-size: 120%;
 }
 
 form label {
@@ -89,5 +139,11 @@ input:focus {
 
 footer {
     text-align: center;
-    font-size: 80%;
+    font-size: 100%;
+    font-style: italic;
+    position: fixed;
+    left: 46%;
+    bottom: 0;
+    padding-bottom: 40px;
+    color: royalblue
 }

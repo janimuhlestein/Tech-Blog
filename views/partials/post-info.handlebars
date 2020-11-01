@@ -1,0 +1,6 @@
+<li class = "line-item">
+    <h3 class = "post-title">{{title}}</h3>
+    <p class = "post-text">{{text}}</p>
+    <p class = "post-name">posted by: {{user.username}} on {{format_date created_at}}</p>
+    <a class = "comment" href="/post/{{id}}">{{comments.length}} {{format_plural "comment comments.length"}}</a>
+</li>
