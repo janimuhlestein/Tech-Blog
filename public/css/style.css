@@ -161,6 +161,14 @@ input:focus {
     font-style: italic;
 }
 
+.edit-post-comment {
+    margin-left: 150px;
+}
+
+.edit-head {
+    text-align: center;
+}
+
 footer {
     text-align: center;
     font-size: 100%;

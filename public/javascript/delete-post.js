@@ -1,0 +1,16 @@
+async function deleteFormHandler(event) {
+    event.preventDefault();
+    const response = await fetch(`/api/posts/${id}`, {
+        method: 'DELETE'
+    });
+    if(response.ok){
+            console.log("every little thing, gonna be alright");
+            document.location.replace ('/dashboard');
+        } else {
+            console.log(response.statusText);
+            alert(response.statusText);
+        }
+
+};
+
+document.querySelector('.edit-post-form').addEventListener('button', deleteFormHandler);
