@@ -3,8 +3,10 @@ async function editFormHandler(event) {
     const title = document.querySelector('#post-title').value; 
     const text = document.querySelector('#post-text').value;
     console.log(title +  ", " + text);
+    const id = window.location.toString().split('/')[
+        window.location.toString().split('/').length - 1];
 
-    const response = await fetch(`/api/posts/3`, {
+    const response = await fetch(`/api/posts/${id}`, {
         method: 'PUT',
         body: JSON.stringify({
           title,

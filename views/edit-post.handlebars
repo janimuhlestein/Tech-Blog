@@ -1,23 +1,23 @@
 <article>
     <a href="/dashboard" class = "edit-link"> &larr; Back to dashboard</a>
     <h2 class = "edit-head">Edit Post</h2>
-    <form class = "edit-post-form">
-        <div>
-            <input name = "post-title" id="post-title" type = "text" value = "{{post.title}}"/>
-            <input name = "post-text" id="post-text" type = "text" value = "{{post.text}}"/>
-        </div>
-        <button type = "submit">Save Post</button>
-        <button type = "button" class = "delete-post-btn">Delete post</button>
-    </form>
+    <form class = "new-post-form">
+            <div>
+                <label for "post-title">Title</label>
+                <input type = "text" id = "post-title" class = "new-post-title" name = "post-title" value = "{{post.title}}"/>
+            </div>
+            <div>
+                <label for "post-text">Post Text</label>
+                <textarea id="post-text" name = "post-text" class = "new-post-text">{{post.text}}</textarea>
+            </div>
+            <div class = "edit-buttons">
+                <button type = "submit" class = "edit-button">Save</button>
+                <button type = "button" class = "delete-post-btn">Delete</button>
+            </div>
+        </form>
     <div>
             <a href="/post/{{post.id}}" class = "edit-post-comment">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</href>
     </div>
-    <form class = "add-comment-form">
-        <div>
-            <textarea name = "comment-body" id = "comment-body"></textarea>
-        </div>
-        <button type = "submit">add comment</button>
-    </form>
 </article>
 <script src="/javascript/edit-post.js"></script>
 <script src="/javascript/delete-post.js"></script>
