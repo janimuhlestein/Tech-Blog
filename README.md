@@ -36,7 +36,7 @@ From there, if they click on the daskboard link, they are taken to their daskboa
  ![addcomment](https://user-images.githubusercontent.com/52082187/97819122-e983c880-1c63-11eb-8773-425168ddbb2f.jpg)
 
  User's dashboard.
-![dashboard](https://user-images.githubusercontent.com/52082187/97819130-edafe600-1c63-11eb-873a-0df6bc352719.jpg)
+![dashboard](https://user-images.githubusercontent.com/52082187/97837142-e1934b00-1c9a-11eb-9387-5a208cdc68ee.jpg)
 
 Signup page.
 ![signup](https://user-images.githubusercontent.com/52082187/97819134-f1436d00-1c63-11eb-8d07-8460912f065d.jpg)
