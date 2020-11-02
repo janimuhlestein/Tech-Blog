@@ -23,6 +23,8 @@ From there, if they click on the daskboard link, they are taken to their daskboa
 
  If they click on the logout link, they are automatically logged out, and their session is ended.
 
+ There is also a max time for the user. The session ends after a set period of inactivity.
+
  # Testing:
  Tests for helper functions exist and can be run at the main directory by typing npm run tests.
 

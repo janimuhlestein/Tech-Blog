@@ -13,9 +13,11 @@ const sess = {
     cookie: {},
     resave: false,
     saveUninitialized: true,
+    maxAge: 10 * 60 * 1000,
+    rolling: true,
     store: new SequelizeStore({
         db: sequelize
-    })
+    }),
 };
 
 const app = express();
